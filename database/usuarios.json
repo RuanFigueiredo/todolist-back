@@ -40,5 +40,23 @@
         "nome": "Goleador da Suíça",
         "email": "goleador7@suica.com",
         "senha": "$2b$10$I0x18K59hKvOUR3jFbBaX./CQ.RIwnm4xsYCcSUbEGtIC8BUG6xZW"
+    },
+    {
+        "id": 10,
+        "nome": "ruan",
+        "email": "ruan@email.com",
+        "senha": "$2b$10$50zthgqeuTZZ0PvsXyXguek.EjM1u3HPp6BF98eNQNPOpF9uPC2k."
+    },
+    {
+        "id": 11,
+        "nome": "ruanthiago",
+        "email": "ruanthiago@email.com",
+        "senha": "$2b$10$goEl0fwxpzzpWP0k9hf7FepjKNXS/NgcG5GFBg0mt1WDvzYzpjENO"
+    },
+    {
+        "id": 12,
+        "nome": "ruan",
+        "email": "ruan@katameil.com",
+        "senha": "$2b$10$yRfpSNUM6qlJr8WL3KKDO.Pw0TXaqm4Ou5Y25Oo831xe4eCmCGAY2"
     }
 ]
