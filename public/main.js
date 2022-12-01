@@ -9,8 +9,16 @@ const chaveLocal = 'boxtarefas';
 let tarefas = [];
 
 const getTarefas = async () => {
+
+    //criar objeto de opções
+    let opcoes = {
+        method: "GET",
+        headers:{
+            "authorization":`bearer ${sessionStorage.getItem('token')}`
+        }
+    }
     // Disparando uma requisição para carregar para obter uma resposta
-    let resposta = await fetch(`${urlBase}/tarefas`);
+    let resposta = await fetch(`${urlBase}/tarefas`, opcoes);
 
     // Extraindo o conteúdo JSON da resposta
     tarefas = await resposta.json();

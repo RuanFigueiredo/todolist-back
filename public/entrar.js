@@ -11,11 +11,11 @@ const tratarResposta = async response => {
     switch (response.status) {
         case 201:
             //capturar o token pelo servidor
-        let conteudo = await response.json();
+            let conteudo = await response.json();
         
             //salvar o token (sessionstorage)
-        sessionStorage.setItem('token', conteudo.token);
-        sessionStorage.setItem('usuario', JSON.stringify(conteudo.usuario);
+            sessionStorage.setItem('token', conteudo.token);
+            sessionStorage.setItem('usuario', JSON.stringify(conteudo.usuario));
             //carregar o index.html
             location = "index.html";
                 break;
